@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -36,12 +36,7 @@ const stats = [
   },
 ];
 
-
 const about = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <>
       <Head>
@@ -116,9 +111,7 @@ const about = () => {
                   key={id}
                   className="flex flex-col flex-wrap items-end justify-center xl:items-center xl:my-3"
                 >
-                  <p className="inline-block text-7xl font-bold">
-                    {value} +
-                  </p>
+                  <p className="inline-block text-7xl font-bold">{value} +</p>
                   <h2 className="text-xl text-end font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                     {name}
                   </h2>

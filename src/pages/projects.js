@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import project1 from "../../public/images/projects/LandRover_Featured.png";
 import project2 from "../../public/images/projects/MathMagicians_Project.jpg";
 import project3 from "../../public/images/projects/cypto_angels_Finance.jpg";
@@ -120,9 +120,7 @@ const Project = ({ type, title, img, link, github, summary }) => {
 
 const projects = () => {
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   return (
     <>

@@ -1,0 +1,75 @@
+
+.bg-image-home {
+    background-image: url("../../public/images/bg-Image.jpeg");
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section::before {
+    content: "";
+    background: linear-gradient(to top, #ffffff, transparent);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  section img {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+  }
+  
+  section img.person {
+    transform-origin: bottom;
+  }
+  
+  .text {
+    user-select: none;
+    color: #ffffff;
+    font-size: 5vw;
+    position: relative;
+    text-transform: uppercase;
+    filter: drop-shadow(5px 13px 24px rgba(0, 0, 0, 0.7));
+  }
+  
+  .sec {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .sec h2 {
+    color: #20497a;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .sec p {
+    color: #20497a;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    opacity: 0.7;
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  

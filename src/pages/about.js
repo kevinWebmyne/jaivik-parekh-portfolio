@@ -41,19 +41,7 @@ const AnimateNumbers = ({ value }) => {
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });
   const isInView = useInView(ref, { once: true });
-  useEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }
-  }, [isInView, value, motionValue]);
-
-  useEffect(() => {
-    springValue.on("change", (latest) => {
-      if (ref.current && latest.toFixed(0) <= value) {
-        ref.current.textContent = latest.toFixed(0);
-      }
-    });
-  }, [springValue, value]);
+ 
 
   return <span ref={ref}></span>;
 };
@@ -138,7 +126,7 @@ const about = () => {
                   className="flex flex-col flex-wrap items-end justify-center xl:items-center xl:my-3"
                 >
                   <p className="inline-block text-7xl font-bold">
-                    <AnimateNumbers value={value} />+
+                    {value} +
                   </p>
                   <h2 className="text-xl text-end font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                     {name}

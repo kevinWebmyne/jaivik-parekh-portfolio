@@ -36,15 +36,6 @@ const stats = [
   },
 ];
 
-const AnimateNumbers = ({ value }) => {
-  const ref = useRef(null);
-  const motionValue = useMotionValue(0);
-  const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref, { once: true });
- 
-
-  return <span ref={ref}></span>;
-};
 
 const about = () => {
   useEffect(() => {

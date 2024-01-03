@@ -50,15 +50,11 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center mt-16">
         <Layout className="pt-16">
           <AnimatedText
-            data-aos="fade-up"
             text="Passion Fuels Purpose!"
             className="Passion-title mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div
-              data-aos="fade-right"
-              className="animate-ex col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8"
-            >
+            <div className="animate-ex col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
@@ -102,10 +98,7 @@ const about = () => {
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div
-              data-aos="fade-up"
-              className="animate-ex col-span-2 flex flex-col flex-wrap items-end justify-between xl:col-span-8 xl:items-center md:order-3"
-            >
+            <div className="animate-ex col-span-2 flex flex-col flex-wrap items-end justify-between xl:col-span-8 xl:items-center md:order-3">
               {stats.map(({ id, value, name }) => (
                 <div
                   key={id}

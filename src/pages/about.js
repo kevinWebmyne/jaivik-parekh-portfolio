@@ -65,27 +65,22 @@ const about = () => {
                 project management, I bring a versatile skill set to the table.
               </p>
               <p className="my-4 font-medium">
-                🌐 My journey in tech has been a thrilling ride. Currently,
-                I&apos;m driving Full-Stack development at &quot;Must
-                Fintech,&quot; a South Korean company. My toolkit includes
-                modern up-to-date technical skills. But my expertise goes beyond
-                coding; it&apos;s about translating ideas into user-friendly,
-                impactful software.
+                🌐   Currently enrolled in the Master of Engineering Co-op program in
+            Systems and Technology at McMaster University, eligible for a 4-12
+            months Co-op starting in May 2024.
+          
               </p>
               <p className="my-4 font-medium">
-                🌐 I&apos;m also honing my skills through Microverse&apos;s
-                rigorous remote development boot camp. There, I&apos;ve delved
-                into full-stack wizardry with React JS, Ruby, and Ruby on Rails.
-                My creations include a dynamic e-commerce platform, a vibrant
-                social media hub, and a cutting-edge psychological testing
-                website.
+                🌐  Experience with Python, C++, and C programming with knowledge of
+            software development and Machine Learning gained through course, lab
+            work and projects.
+          
               </p>
               <p className="font-medium">
-                💼 I&apos;m on the lookout for exciting opportunities as a
-                &quot;Full-Stack Developer&quot; and &quot;Software Project
-                Manager.&quot; My track record speaks volumes, and I&apos;m
-                ready to take on the responsibilities that come with these
-                roles.
+                💼 Strengthened analytical and problem solving abilities to identify
+            problems and implement corrective solutions using fundamental
+            engineering techniques acquired through course and project work.
+          
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">

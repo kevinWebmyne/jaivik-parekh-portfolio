@@ -113,7 +113,7 @@ const Home = () => {
             <Link
               href="mailto:jaivikparekh1320@gmail.com"
               target={"_blank"}
-              className="ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2 dark:text-light md:text-base md:m-0"
+              className="ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2 dark:text-dark md:text-base md:m-0"
             >
               Contact
             </Link>

@@ -5,10 +5,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/LandRover_Featured.png";
+import project1 from "../../public/images/projects/Project1.jpg";
 import project2 from "../../public/images/projects/MathMagicians_Project.jpg";
 import project3 from "../../public/images/projects/cypto_angels_Finance.jpg";
-import project4 from "../../public/images/projects/nike_shoes_eCommerce.jpg";
+import project4 from "../../public/images/projects/Project2.jpeg";
 import project5 from "../../public/images/projects/Pokodex_Project.jpg";
 import project6 from "../../public/images/projects/HTML_CSS_JS_Portfolio.jpg";
 import { motion } from "framer-motion";
@@ -119,9 +119,6 @@ const Project = ({ type, title, img, link, github, summary }) => {
 };
 
 const projects = () => {
-
-
-
   return (
     <>
       <Head>
@@ -139,12 +136,13 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div  data-aos="fade-left"  className="animate-ex col-span-12">
+            <div data-aos="fade-left" className="animate-ex col-span-12">
               <FeaturedProjects
                 type="Featured Project"
-                title="Helper Land"
-                summary="Helper Land :  Developed a website to provide an interface between user and client to use various types of services with 95 percent satisfaction. choosing different categories, the client can order various types of services as per the
-                requirement with rage clicks by 38 percent."
+                title="Diabetes Prediction Using Machine Learning"
+                summary="Developed and designed the prediction setup of system by using appropriate components
+                including Principal component analysis(PCA), Filter Selection, classification and regressing. These projects predicted the symptons of the diabetes from the patient past medical history.Collaborated with other team members and guided other team members in order tomaintain
+                continuous workflow of the project"
                 img={project1}
                 link="https://github.com/Jaivik1320/Helperland"
                 github="https://github.com/Jaivik1320/Helperland"
@@ -153,8 +151,9 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProjects
                 type="Featured Project"
-                title="Chat-Web Application"
-                summary="Chat-Web Application : Worked independently and developed a website we can see the online status, great design with 90 percent hands-on coding in Javascript. On this website, we can read the message, image support, sound notifications, and the ability to create 5 rooms."
+                title="Cardiovascular Disease"
+                summary="Cardiovascular Disease : Python, Machine learning, Classification, Developed and implemented a community-wide cardiovascular risk assessment program. Utilized data analytics to track the impact of interventions and identify areas for improvement. Reduced CVD risk factors in the targeted population by 32% over the project duration. Increased community awareness about cardiovascular health, leading to a 67% improvement
+                in early detection and intervention."
                 img={project4}
                 link="https://github.com/Jaivik1320/Web-Chat-Application"
                 github="https://github.com/Jaivik1320/Web-Chat-Application"
